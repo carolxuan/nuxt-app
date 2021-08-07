@@ -1,6 +1,6 @@
 <template>
   <div>
-    <!-- <Header /> -->
+    <Header />
     <main>
       <section class="video-area">
         <div class="container">
@@ -105,13 +105,13 @@
         </div>
       </section>
     </main>
-    <!-- <Footer /> -->
+    <Footer />
   </div>
 </template>
 
 <script>
-// import Header from '@/components/Header.vue';
-// import Footer from '@/components/Footer.vue';
+import Header from '@/components/Header.vue';
+import Footer from '@/components/Footer.vue';
 
 export default {}
 </script>

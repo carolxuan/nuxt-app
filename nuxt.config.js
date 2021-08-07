@@ -23,6 +23,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    './node_modules/bootstrap-icons/font/bootstrap-icons.css'
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
