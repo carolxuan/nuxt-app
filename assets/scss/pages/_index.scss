@@ -1,0 +1,38 @@
+.video-area {
+  li {
+    width: 23.333333%;
+    margin: 4px 8px;
+    @include largeDesktops() {
+      width: 31%;
+    }
+    @include pad() {
+      width: 47%;
+    }
+    @include apple() {
+      width: 46%
+    }
+    @include mobile480() {
+      width: 100%;
+    }
+    img {
+      width: 360px;
+      height: auto;
+      @include mobile480() {
+        width: 100%;
+      }
+    }
+    a {
+      position: relative;
+    }
+  }
+  .time-tag {
+    position: absolute;
+    bottom: 14px;
+    right: 14px;
+    color: #fff;
+    font-size: 14px;
+    padding: 4px 10px;
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.5)
+  }
+}

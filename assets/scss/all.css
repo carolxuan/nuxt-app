@@ -224,4 +224,59 @@ footer {
 footer p {
   font-size: 12px;
 }
+
+.video-area li {
+  width: 23.333333%;
+  margin: 4px 8px;
+}
+
+@media (max-width: 1140px) {
+  .video-area li {
+    width: 31%;
+  }
+}
+
+@media (max-width: 767px) {
+  .video-area li {
+    width: 47%;
+  }
+}
+
+@media (max-width: 575px) {
+  .video-area li {
+    width: 46%;
+  }
+}
+
+@media (max-width: 480px) {
+  .video-area li {
+    width: 100%;
+  }
+}
+
+.video-area li img {
+  width: 360px;
+  height: auto;
+}
+
+@media (max-width: 480px) {
+  .video-area li img {
+    width: 100%;
+  }
+}
+
+.video-area li a {
+  position: relative;
+}
+
+.video-area .time-tag {
+  position: absolute;
+  bottom: 14px;
+  right: 14px;
+  color: #fff;
+  font-size: 14px;
+  padding: 4px 10px;
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.5);
+}
 /*# sourceMappingURL=all.css.map */
