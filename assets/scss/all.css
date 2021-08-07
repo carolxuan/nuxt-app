@@ -70,4 +70,158 @@ h6 {
   margin: 0;
   font-weight: normal;
 }
+
+.container-fluid {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 14px;
+}
+
+.container {
+  max-width: 1400px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 14px;
+}
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.justify-content-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.justify-content-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.justify-content-around {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.align-items-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mb-1 {
+  margin-bottom: 8px;
+}
+
+.mb-2 {
+  margin-bottom: 16px;
+}
+
+.mb-3 {
+  margin-bottom: 24px;
+}
+
+.mb-4 {
+  margin-bottom: 32px;
+}
+
+header {
+  background-color: #fff;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.navbar {
+  border-bottom: 1px solid #000;
+  padding: 0 18px;
+  height: 60px;
+}
+
+.navbar .navbar-nav {
+  height: 100%;
+}
+
+.menu li {
+  margin: 0 6px 8px 0;
+  padding: 6px 16px;
+  border-radius: 30px;
+  background-color: #eee;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.menu li a {
+  font-size: 14px;
+}
+
+.menu li:hover, .menu li.active {
+  background-color: #444;
+}
+
+.menu li:hover a, .menu li.active a {
+  color: #fff;
+}
+
+.logo img {
+  width: 120px;
+}
+
+.search {
+  padding-right: 24px;
+  cursor: pointer;
+}
+
+.user-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #5C3D2E;
+  cursor: pointer;
+}
+
+.user-icon span {
+  color: #fff;
+}
+
+footer {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  padding: 4px 0;
+  background-color: #fff;
+}
+
+footer p {
+  font-size: 12px;
+}
 /*# sourceMappingURL=all.css.map */
